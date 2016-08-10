@@ -45,7 +45,7 @@ Go back to [[Town]]
 ]</tw-passagedata>
 <tw-passagedata pid="5" name="Fight Enemy" tags="" position="500,50">(set: $enemyName to (either:&quot;Giant Spider&quot;,&quot;Zombie&quot;,&quot;Ghost&quot;,&quot;Pizza Rat&quot;))
 A $enemyName crawls out of the shadows!
-(set: $enemyhealth to (random:30,50) + $points)
+(set: $enemyhealth to (random:30,50)+($points*.1))
 (set: $punch to (random:1,9))
 (set: $kick to 10 - $punch)
 (display: &quot;Enemy Hits You&quot;)</tw-passagedata>
