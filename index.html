@@ -9,11 +9,15 @@
     h1{
       padding:20px 0 0 20px;
     }
-    tr{
+    div.box{
+      float:left;
       width:100%;
+
     }
-    td{
-      width:50%;
+    div.boxCell{
+      float:left;
+      display:inline;
+      max-width:440px;
       padding:5px 40px 30px 5px;
       vertical-align:top;
     }
@@ -24,12 +28,12 @@
     }
     div.info{
       color:gray;
-      font-size:0.8em;
+      font-size:0.79em;
       padding: 5px 0px 5px 20px;
       line-height:130%;
     }
     summary{
-      font-size:0.95em;
+      font-size:0.84em;
       outline:none;
       line-height:120%;
     }
@@ -37,17 +41,18 @@
 </head>
 <body>
 <h1>Justin Riley, Noteworthy Projects</h1>
-<table>
-  <tr>
-    <td>
+
+
+  <div class="box">
+    <div class="boxCell">
       <h3>Conference Sessions</h3>
       <ul>
         <li><details><summary>Let Your Students Create Their Own Adventure</summary><div class="info">upcoming</div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/turtle'>It's Turtle Graphics All The Way Down: Designing With Code in Middle School CS</a></summary><div class="info">Presentation at the 2017 Construct3D Conference, a national conference for digital fabrication in education (May 6th, 2017)</div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/turtle'>It's Turtle Graphics All The Way Down: Designing With Code</a></summary><div class="info">Presentation at the 2017 Construct3D Conference, a national conference for digital fabrication in education (May 6th, 2017)</div></details></li>
         <li><details><summary><a target="_blank" href='http://www.ohiofi.com/powerup'>Power Up! Free & Easy Ways to Implement Game-Based Learning</a></summary><div class="info">Presentation at 2014 Ohio Music Education Association & Central Regional TI:ME Conference</div></details></li>
         <li><details><summary>iOS Music Apps</summary><div class="info">Presentation at 2013 Capital University Student Music Tech Workshop</div></details></li>
         <li><details><summary>Circuit Bending Freak-out</summary><div class="info">Presentation at 2013 Capital University Student Music Tech Workshop</div></details></li>
-        <li><details><summary>A Strategy Guide for Game-Based Learning</summary><div class="info">Presentation at 2013 Ohio Music Education Association & Central Regional TI:ME Conference </div></details></li>
+        <li><details><summary><a target="_blank" href='https://docs.google.com/presentation/d/1LUavdoeacvPIqWk4zHIVSqvcdy8fYPl_9Hsz9wcGe7M/pub?start=false&loop=false&delayms=3000'>A Strategy Guide for Game-Based Learning</a></summary><div class="info">Presentation at 2013 Ohio Music Education Association & Central Regional TI:ME Conference </div></details></li>
         <li><details><summary><a target="_blank" href='http://www.ohiofi.com/blog/music-tech-recital-at-the-2013-omeatime-regional-conference/'>Music Technology Recital</a></summary><div class="info">Presentation at 2013 Ohio Music Education Association & Central Regional TI:ME Conference</div></details></li>
         <li><details><summary>Short Stop Youth Center Music Ensemble</summary><div class="info">Presentation at 2013 Ohio Music Education Association & Central Regional TI:ME Conference </div></details></li>
         <li><details><summary><a target="_blank" href='https://vimeo.com/60964383'>Using Web Video as a Tool for Music Education</a></summary><div class="info">Presentation at 2013 Ohio Music Education Association & Central Regional TI:ME Conference </div></details></li>
@@ -55,8 +60,10 @@
         <li><details><summary>Sibelius & GarageBand Music Software</summary><div class="info">Presentation at the 2007 Central Ohio In-service Day for music teachers in the Hilliard City School District</div></details></li>
 
       </ul>
-    </td>
-    <td>
+    </div>
+
+
+    <div class="boxCell">
       <h3>Video Games</h3>
       <ul>
         <li><details><summary><a target="_blank" href='http://superstampcollector.glitch.me'>Super Stamp Collector</a></summary><div class="info">A JavaScript-based HTML5 game with original soundtrack</div></details></li>
@@ -75,11 +82,30 @@
         <li><details><summary><a target="_blank" href='http://ohiofi.com/phantomofpower'>Phantom of Power</a></summary><div class="info">A Flash game created with Stencyl with original music composed by my students</div></details></li>
         <li><details><summary><a target="_blank" href='http://www.ohiofi.com/games.php'>Tank War</a></summary><div class="info">A Flash game with original soundtrack</div></details></li>
 
-    </td>
-  </tr>
+    </div>
 
-  <tr>
-    <td>
+
+
+    <div class="boxCell">
+      <h3>Web Apps & Interactive Media</h3>
+      <ul>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/resistors.html'>Resistor Color Bands web app</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/storyproject/'>MUS110 Interactive Multimedia project</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/samplingproject/'>MUS110 Sampling project</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/microphones.html'>Microphone Identification web app</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/signalflow.html'>Signal Flow web app</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/graphiceq.html'>Graphic EQ web app</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://ohiofi.com/namethatnote/'>Name That Note</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/solfastar/'>Solfa Star</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/multitrackslider.html'>Multitrack Faders Flash app</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/multitrackflash.html'>Multitrack Buttons Flash app</a></summary><div class="info"></div></details></li>
+        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/multitrackflash.html'>Multitrack Buttons Flash app</a></summary><div class="info"></div></details></li>
+      </ul>
+
+    </div>
+
+
+    <div class="boxCell">
       <h3>Bots</h3>
       <ul>
         <li><details><summary><a target="_blank" href='http://twitter.com/shouldbot'>ShouldBot on Twitter</a> & <a target="_blank" href='http://m.me/shouldbot'>on Facebook Messenger</a></summary><div class="info">Coded with PHP for Twitter & JavaScript for FB Messenger. When a user asks ShouldBot a 'this or that' question, it splits the text & randomly replies with either 'this' or 'that.'</div></details></li>
@@ -92,8 +118,10 @@
       </ul>
 
 
-    </td>
-    <td>
+    </div>
+
+
+    <div class="boxCell">
       <h3>Art & Graphic Design</h3>
       <ul>
 
@@ -110,16 +138,16 @@
       </ul>
 
 
-    </td>
-  </tr>
+    </div>
 
-  <tr>
-    <td>
+    <div class="boxCell">
+
+
       <h3>Film & Video</h3>
       <ul>
         <li><details><summary><a target="_blank" href='http://www.imdb.com/name/nm2939813/'>My IMDB page</a></summary><div class="info">Composer for The Funeral, The General Specific, & Not Your Typical Bigfoot Movie (Documentary)</div></details></li>
         <li><details><summary>The Funeral</summary><div class="info">Premiered 2015</div></details></li>
-        <li><details><summary>Capital Spotlight: Undergraduate Scholarship - Sound Science: Assessing Acoustics in the Mezz</summary><div class="info">Filmed & edited HD video for “Capital Spotlight: Undergraduate Scholarship - Sound Science: Assessing Acoustics in the Mezz”</div></details></li>
+        <li><details><summary>Capital Spotlight: Sound Science</summary><div class="info">Filmed & edited HD video for “Capital Spotlight: Undergraduate Scholarship - Sound Science: Assessing Acoustics in the Mezz”</div></details></li>
         <li><details><summary>Capital Spotlight: Microsoft’s Generation App at Capital University</summary><div class="info">Filmed & edited HD video for “Capital Spotlight: Microsoft’s Generation App at Capital University”</div></details></li>
         <li><details><summary>Capital University’s 2012 electronic Christmas Card</summary><div class="info">Created an original musical arrangement, recorded & mixed audio, & filmed & edited HD video for Capital University’s 2012 electronic Christmas Card</div></details></li>
         <li><details><summary>Capital University’s Call Me Maybe</summary><div class="info">Filmed & edited HD video for Capital University’s Call Me Maybe lip dub in 2012</div></details></li>
@@ -128,30 +156,16 @@
         <li><details><summary>The General Specific</summary><div class="info">Composed, performed, & recorded portions of the soundtrack for The General Specific, a feature film released by Elevate Pictures in 2010</div></details></li>
         <li><details><summary>Not Your Typical Bigfoot Movie</summary><div class="info">Composed, performed, & recorded the soundtrack for Not Your Typical Bigfoot Movie, a documentary released by Oscilloscope Pictures in 2008</div></details></li>
       </ul>
-    </td>
 
-    <td>
-      <h3>Web Apps & Interactive Media</h3>
-      <ul>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/resistors.html'>Resistor Color Bands web app</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/storyproject/'>MUS110 Interactive Multimedia project</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/samplingproject/'>MUS110 Sampling project</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/microphones.html'>Microphone Identification web app</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/signalflow.html'>Signal Flow web app</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/graphiceq.html'>Graphic EQ web app</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/multitrackslider.html'>Multitrack Faders Flash app</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/multitrackflash.html'>Multitrack Buttons Flash app</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://ohiofi.com/namethatnote/'>Name That Note</a></summary><div class="info"></div></details></li>
-        <li><details><summary><a target="_blank" href='http://www.ohiofi.com/solfastar/'>Solfa Star</a></summary><div class="info"></div></details></li>
-      </ul>
-    </td>
+    </div>
 
 
-  </tr>
+    <div class="boxCell">
 
 
-  <tr>
-    <td>
+
+
+
       <h3>Compositions & Arrangements</h3>
       <ul>
         <li><details><summary>Capital University’s 2012 electronic Christmas Card</summary><div class="info">Created an original musical arrangement, recorded & mixed audio, & filmed & edited HD video for Capital University’s 2012 electronic Christmas Card</div></details></li>
@@ -171,9 +185,10 @@
 
       </ul>
 
-    </td>
+    </div>
+    <div class="boxCell">
 
-    <td>
+
       <h3>Audio Recording & Engineering</h3>
       <ul>
         <li><details><summary>Let it Shine</summary><div class="info">Recorded & mixed Let it Shine, an album released by Capital University’s Philomel in 2013</div></details></li>
@@ -191,11 +206,11 @@
 
       </ul>
 
-    </td>
+    </div>
 
-  </tr>
+  </div>
 
-</table>
+
 
 
 
